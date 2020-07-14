@@ -19,7 +19,7 @@ namespace binary_search
             for (int i = 1; i < 100; i += 2)
                 list.Add(i);
 
-            (int index, int value) = FindValue(targetValue, list);
+            (int index, int value) = BinarySearch(targetValue, list);
 
             WriteLine("==========================");
             if (index == -1)
@@ -28,7 +28,7 @@ namespace binary_search
                 WriteLine($"Found value {value} at index {index}");
         }
 
-        private static (int, int) FindValue(int targetValue, List<int> list)
+        private static (int, int) BinarySearch(int targetValue, List<int> list)
         {
             int stepCount = 0;
             int low = 0;
