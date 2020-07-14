@@ -8,7 +8,7 @@ There may be some articles coming soon. Samples are written with .NET Core 3.1 i
 [binary-search](https://github.com/jeremybytes/grokking-algorithms/tree/main/binary-search) (C#)  
 [f-binary-search](https://github.com/jeremybytes/grokking-algorithms/tree/main/f-binary-search) (F#)
 * 2 - Selection sort  
-[selection-sort](https://github.com/jeremybytes/grokking-algorithms/tree/main/selection-sort) (C#)
+[selection-sort](https://github.com/jeremybytes/grokking-algorithms/tree/main/selection-sort) (C#)  
 [f-selection-sort](https://github.com/jeremybytes/grokking-algorithms/tree/main/f-selection-sort) (F#)
 * 3 - Recursion  
 [recursion](https://github.com/jeremybytes/grokking-algorithms/tree/main/recursion) (C#)  
