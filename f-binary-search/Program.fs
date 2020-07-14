@@ -1,7 +1,4 @@
-﻿// Learn more about F# at http://fsharp.org
-
-open System
-open System.Linq
+﻿open System
 
 let rec findValue (targetValue, searchList: int list, (low, high)) =
     let mid = (low + high) / 2
@@ -31,4 +28,4 @@ let main argv =
     | None -> printfn "Value %i was not found" targetValue
     | Some(x,_) -> printfn "Location of %i is %i" targetValue x
 
-    0
+    0 // exit code

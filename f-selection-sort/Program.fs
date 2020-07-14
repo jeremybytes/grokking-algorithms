@@ -1,8 +1,4 @@
-﻿// Learn more about F# at http://fsharp.org
-
-open System
-
-let rec selectionsort inputlist =
+﻿let rec selectionsort inputlist =
     match List.length inputlist with
     | 1 -> inputlist
     | _ ->
@@ -23,4 +19,4 @@ let main argv =
     printfn "Initial List: %A" namelist
     printfn "Sorted List: %A" sortednamelist
 
-    0 // return an integer exit code
+    0 // exit code
