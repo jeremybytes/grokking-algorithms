@@ -16,6 +16,10 @@ namespace quicksort
             var sortedList = Quicksort(list);
             Console.WriteLine(OutputList(sortedList, "Sorted List"));
 
+            Console.WriteLine($"Sum: {Exercises.Sum(list)}");
+            Console.WriteLine($"Count: {Exercises.Count(list)}");
+            Console.WriteLine($"Max: {Exercises.Max(list)}");
+
             Console.WriteLine("------------------------------");
 
             var names = new List<string>
@@ -32,6 +36,9 @@ namespace quicksort
 
             var sortedNames = Quicksort(names);
             Console.WriteLine(OutputList(sortedNames, "Sorted Names"));
+
+            Console.WriteLine($"Count: {Exercises.Count(names)}");
+            Console.WriteLine($"Max: {Exercises.Max(names)}");
         }
 
         static List<T> Quicksort<T>(List<T> list) where T : IComparable
