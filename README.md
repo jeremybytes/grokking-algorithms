@@ -23,6 +23,8 @@ Quick sort on a list of numbers and a list of names.
 [f-quicksort](https://github.com/jeremybytes/grokking-algorithms/tree/main/f-quicksort) (F#)
 * **5 - Hash tables**  
 * **6 - Breadth-first search**  
+Breadth-first search on a graph of nodes.  
+[breadth-first](https://github.com/jeremybytes/grokking-algorithms/tree/main/breadth-first) (C#)  
 * **7 - Dijkstra's algorithm**  
 * **8 - Greedy algorithms**  
 * **9 - Dynamic programming**  
